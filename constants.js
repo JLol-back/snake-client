@@ -12,7 +12,7 @@ const MESSAGES = {
   m: "Say: It's-a me, MARIO",
   j: "Say: GO ✈️ JETS ✈️ GO",
   l: "Say: sssss",
-}
+};
 
 module.exports = {
   IP,
