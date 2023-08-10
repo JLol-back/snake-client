@@ -1,3 +1,6 @@
+const { clear } = require("console");
+const { MOVEMENT, MESSAGES } = require('./constants');
+
 let connection;
 
 const setupInput = (conn) => {
@@ -21,36 +24,15 @@ const handleUserInput = function(key) {
 
   // Movement Keys
 
-  if (key === "w") {
-    connection.write("Move: up");
-  }
-
-  if (key === "a") {
-    connection.write("Move: left");
-  }
-
-  if (key === "s") {
-    connection.write("Move: down");
-  }
-
-  if (key === "d") {
-    connection.write("Move: right");
+  if (MOVEMENT[key.toString()]) {
+    connection.write(MOVEMENT[key]);
   }
 
   // 'Say' Messages
 
-  if (key === "m") {
-    connection.write("Say: It's a me, MARIO");
-  }
-
-  if (key === "j") {
-    connection.write("Say: GO JETS GO");
-  }
-
-  if (key === "l") {
-    connection.write("Say: sssss");
-  }
-
+  if (MESSAGES[key.toString()]) {
+    connection.write(MESSAGES[key]);
+  };
 
 };
 
