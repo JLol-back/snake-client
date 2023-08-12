@@ -4,5 +4,3 @@ const { setupInput } = require('./input');
 console.log("Connecting ...");
 
 setupInput(connect());
-
-TextDecoderStream
