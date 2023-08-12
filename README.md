@@ -8,9 +8,9 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-<img title="Snake Demo" alt="demo-gameplay" src="https://github.com/JLol-back/snake-client/blob/main/snake-demo.gif/">
+<img title="Snake Demo" alt="demo-gameplay" width="500" src="https://github.com/JLol-back/snake-client/blob/main/snake-demo.gif/">
 
-<img title="Snake Multiplayer Demo" alt="multi-player-demo" src="https://github.com/JLol-back/snake-client/blob/main/Multiplayer.png">
+<img title="Snake Multiplayer Demo" alt="multi-player-demo" width="500" src="https://github.com/JLol-back/snake-client/blob/main/Multiplayer.png">
 
 ## Getting Started
 
